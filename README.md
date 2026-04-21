@@ -20,6 +20,19 @@ Anaconda - Python 3.7
 ## PROGRAM:
 
 ### OUTPUT:
+```
+import sys
+fp=open(sys.argv[1])
+wordcount=0
+for i in fp:
+    words=i.split()
+    wordcount+=len(words)
+print("Total no of words in file is",wordcount)
+fp.close()
+```
+### OUTPUT:
+
+![image](https://github.com/mercyarulappan/Command--line-arguments-to-count-word/assets/149233730/8f64ac57-532c-489e-85da-ca18b28b74e0)
 
 
 
